@@ -23,19 +23,10 @@ cd hand-it-out
 npm install
 ```
 
-## Using <project_name>
 
-To use <project_name>, follow these steps:
-
-```
-<usage_example>
-```
-
-Add run commands and examples you think users will find useful. Provide an options reference for bonus points!
-
-## Contributing to <project_name>
+## Contributing to Hand-it-out
 <!--- If your README is long or you have some specific process or steps you want contributors to follow, consider creating a separate CONTRIBUTING.md file--->
-To contribute to <project_name>, follow these steps:
+To contribute to Hand-it-out, follow these steps:
 
 1. Fork this repository.
 2. Create a new branch: `git checkout -b <branch_name>`.
