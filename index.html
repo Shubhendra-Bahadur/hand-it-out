@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="left">
+           <textarea class="text-area" name="" id="inserted"  placeholder="insert text here..." style="resize: none;" wrap="physical"></textarea>
+        </div>
+        <div class="mid-border">
+            <select class="font-select">
+                <option selected disabled hidden>Choose Font...</option>
+                <option value="cursive">cursive</option>
+                <option value="Georgia, 'Times New Roman', Times, serif">'Georgia', 'Times New Roman', Times, serif</option>
+                <option value="'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif</option>
+                <option value="'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif</option>
+                <option value="monospace">monospace</option>
+                <option value="fantasy">fantasy</option>
+                <option value="'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif</option>
+                <option value=" Verdana, Geneva, Tahoma, sans-serif"> Verdana, Geneva, Tahoma, sans-serif</option>
+            </select>
+            <button class="convert" type="submit">Convert</button>
+        </div>
+        <div class="right">
+            <textarea class="text-area" name="" id="converted" cols="30" rows="10"></textarea>
+        </div>
+    </div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
